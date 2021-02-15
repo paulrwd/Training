@@ -8,7 +8,9 @@ namespace Training
         {
             //BuzzFuzz.Run();
 
-            int res = Factorial.Calculate(5);                   
+            //int res = Factorial.Calculate(5);    
+            
+
         }
 
         
