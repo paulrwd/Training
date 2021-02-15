@@ -16,7 +16,9 @@ namespace Training
 
             //Delegates.Run();
 
-            StackOverflow.Run();
+            //StackOverflow.Run();
+
+            RecurSum.Run();
 
 
             Console.ReadLine();
