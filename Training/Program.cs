@@ -6,8 +6,11 @@ namespace Training
     {
         static void Main(string[] args)
         {
-            BuzzFuzz.Run();
-            //
+            //BuzzFuzz.Run();
+
+            int res = Factorial.Calculate(5);                   
         }
+
+        
     }
 }
