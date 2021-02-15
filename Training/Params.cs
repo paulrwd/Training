@@ -4,7 +4,7 @@ namespace Training
 {
     internal class Params
     {
-        static int Sum(params int[] parameters)
+        public static int Sum(params int[] parameters)
         {
             int result = 0;
             for(int i = 0; i < parameters.Length; i++)
@@ -13,10 +13,16 @@ namespace Training
             }
 
             return result;
+
         }
+        delegate int Del(int[] p);
         internal static void Run()
         {
             int res = Sum(3,6,7,78);
+
+
+
+            
 
             Console.WriteLine(res);
         }

@@ -12,7 +12,9 @@ namespace Training
 
             //Param_IN.Run();
 
-            Params.Run();
+            //Params.Run();
+
+            Delegates.Run();
 
 
             Console.ReadLine();
