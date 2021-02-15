@@ -14,7 +14,9 @@ namespace Training
 
             //Params.Run();
 
-            Delegates.Run();
+            //Delegates.Run();
+
+            StackOverflow.Run();
 
 
             Console.ReadLine();
