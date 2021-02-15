@@ -7,7 +7,7 @@ namespace Training
         static void Main(string[] args)
         {
             BuzzFuzz.Run();
-            
+            //
         }
     }
 }
