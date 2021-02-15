@@ -9,10 +9,14 @@ namespace Training
             //BuzzFuzz.Run();
 
             //int res = Factorial.Calculate(5);  
-            
 
+            //Param_IN.Run();
+
+            Params.Run();
+
+
+            Console.ReadLine();
         }
-
-        
+           
     }
 }

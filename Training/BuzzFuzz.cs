@@ -7,7 +7,7 @@ namespace Training
         internal static void Run()
         {
             string tLn = Console.ReadLine();
-            int t = int.Parse(tLn);
+            int.TryParse(tLn, out int t);
             for (int i = 1; i < t; i++)
             {
                 if (i % 3 == 0 && i % 5 != 0)
