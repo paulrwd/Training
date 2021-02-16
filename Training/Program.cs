@@ -18,7 +18,10 @@ namespace Training
 
             //StackOverflow.Run();
 
-            RecurSum.Run();
+            //RecurSum.Run();
+
+            //string Str = Console.ReadLine();
+            //Console.WriteLine(Delete_space.MassS(Str));
 
 
             Console.ReadLine();
